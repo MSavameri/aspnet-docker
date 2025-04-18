@@ -1,0 +1,6 @@
+@aspnet_docker_HostAddress = http://localhost:5065
+
+GET {{aspnet_docker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
